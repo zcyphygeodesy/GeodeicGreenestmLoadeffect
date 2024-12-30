@@ -4,6 +4,7 @@ https://www.zcyphygeodesy.com/en/h-nd-145.html
     Using various heterogeneous geodetic variation time series as the observations and the load Green's integral as the geodynamic constraints, estimate the regional surface load equivalent water height (EWH) and all-element load effect grid time series (usually employed to represent regional time-varying gravity field).
     It is technically required that the long wave parts of the load effects on geodetic variations should be removed to satisfy the local Green’s integral condition.
     The geodetic variations here can be one or more of the following five types of variations. (1) Height anomaly variations (mm) from GNSS-leveling monitoring network, (2) disturbance gravity variations (μGal) from GNSS-gravity monitoring network or CORS-gravity tide stations, (3) ground gravity variations (μGal) from gravity monitoring network or gravity tide stations, (4) ellipsoidal height variations (mm) from CORS network or GNSS monitoring network, and (5) normal or orthometric height variations (mm) from leveling monitoring network.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgtbbQuQYolb-olQIwlg44ugk.jpg)
 ## [Geophysical models]
     The Green function file LoadGreen.txt of the load indirect effect on all-element geodetic variations.
 ## [Main program for test entrance]
@@ -82,3 +83,4 @@ Output the land water EWH grid file ewh****.dat, residual geodetic variation fil
 ## [For compile and link]
     Fortran90, 132 Columns fixed format. Fortran compiler. mkl_lapack95_ilp64.lib link library required.
 DOS executable file and all input and output data.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgtLbQuQYokOjd2gIwlg44ugk.jpg)
